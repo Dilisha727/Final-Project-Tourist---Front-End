@@ -1,0 +1,39 @@
+.custom-modal .modal-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .modal-body-layout {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-content {
+    width: 65%;  /* Adjust size as necessary */
+  }
+  
+  .right-content {
+    width: 30%;  /* Adjust size as necessary */
+    text-align: right;
+  }
+  
+  .robot-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
+  h5 {
+    font-weight: bold;
+  }
+  
