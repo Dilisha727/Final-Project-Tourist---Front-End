@@ -1,39 +1,61 @@
-.custom-modal .modal-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  
-  .modal-body-layout {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .left-content {
-    width: 65%;  /* Adjust size as necessary */
-  }
-  
-  .right-content {
-    width: 30%;  /* Adjust size as necessary */
-    text-align: right;
-  }
-  
-  .robot-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .modal-footer {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  button {
-    margin: 10px;
-  }
-  
-  h5 {
-    font-weight: bold;
-  }
-  
+.styled-date-picker {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  cursor: pointer;
+  color: #495057;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.styled-date-picker:hover {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.date-picker-container {
+  position: absolute;
+  z-index: 1000;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 300px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.date-picker-container .rdrCalendarWrapper {
+  width: 100%;
+}
+
+.custom-modal .modal-body-layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-body-layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-content {
+  flex: 2;
+  padding-right: 1rem;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.robot-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
